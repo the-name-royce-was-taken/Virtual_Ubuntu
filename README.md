@@ -1,4 +1,6 @@
-Run:
-./start-desktop.sh
+Desktop starts automatically in Codespaces.
 
-Open forwarded port 6080 and go to /vnc.html
+To start manually:
+bash .devcontainer/scripts/start-novnc.sh
+
+Then open forwarded port 6080.
