@@ -1,6 +1,0 @@
-{
-  "name": "Ubuntu XFCE Desktop",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "forwardPorts": [5901, 6080],
-  "postCreateCommand": "bash .devcontainer/scripts/setup-xfce.sh"
-}
