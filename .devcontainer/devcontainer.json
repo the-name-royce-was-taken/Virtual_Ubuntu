@@ -1,7 +1,0 @@
-{
-  "name": "Ubuntu Desktop",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {},
-  "forwardPorts": [5901, 6080],
-  "postCreateCommand": "bash setup.sh"
-}
