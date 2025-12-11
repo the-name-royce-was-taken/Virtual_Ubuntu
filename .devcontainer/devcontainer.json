@@ -1,15 +1,8 @@
 {
-  "name": "XFCE Codespace",
-  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "name": "XFCE Desktop",
+  "image": "ubuntu:22.04",
   "features": {},
   "postCreateCommand": "bash .devcontainer/scripts/setup-xfce.sh",
-  "customizations": {
-    "vscode": {
-      "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-      }
-    }
-  },
   "forwardPorts": [6080],
   "portsAttributes": {
     "6080": {
