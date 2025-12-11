@@ -1,6 +1,6 @@
 {
   "name": "XFCE Desktop",
-  "image": "ubuntu:22.04",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
   "features": {},
   "postCreateCommand": "bash .devcontainer/scripts/setup-xfce.sh",
   "forwardPorts": [6080],
