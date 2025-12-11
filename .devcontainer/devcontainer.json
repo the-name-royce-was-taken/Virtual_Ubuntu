@@ -1,0 +1,16 @@
+{
+  "name": "AndixSH XFCE Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "runArgs": [
+    "--shm-size=2g"
+  ],
+  "postCreateCommand": "bash /workspaces/.devcontainer/scripts/setup-xfce.sh && bash /workspaces/.devcontainer/scripts/performance-tweaks.sh",
+  "portsAttributes": {
+    "6080": { "label": "noVNC", "onAutoForward": "ignore" }
+  },
+  "forwardPorts": [6080],
+  "overrideCommand": false
+}
