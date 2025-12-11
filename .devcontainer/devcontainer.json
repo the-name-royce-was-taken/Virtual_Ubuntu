@@ -1,1 +1,8 @@
-.devcontainer/devcontainer.json
+{
+  "name": "AndixSH-style XFCE Desktop",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [6080, 5901],
+  "postCreateCommand": "chmod +x /workspaces/${GITHUB_REPOSITORY##*/}/start-desktop.sh"
+}
